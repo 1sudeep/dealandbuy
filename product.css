@@ -1,0 +1,41 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Container styles */
+.container {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center container */
+    padding: 20px; /* Add some padding */
+}
+
+/* Additional CSS specific to the product section */
+.product-container {
+    width: 200px; /* Adjust width as needed */
+    margin: 20px; /* Add some margin between product containers */
+    float: left; /* Float the containers to create a grid layout */
+    text-align: center; /* Center align content */
+}
+.product-image {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Add a border for better visibility */
+    padding: 5px; /* Add padding around the image */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+.product-title {
+    margin-top: 10px; /* Add some space below the image */
+}
+.product-price {
+    color: #777; /* Price color */
+    font-size: 14px; /* Adjust price font size */
+}
